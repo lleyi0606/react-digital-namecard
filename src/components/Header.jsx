@@ -9,9 +9,15 @@ function Header() {
   
     return (
       <>
-        <img src={photoSquare} className='photo' alt="My photo"></img> 
-        <h1 className='name'>Lin Leyi</h1>
-        <h2 className='name-small'>Computer Science Student</h2>
+        <div className='header-container'>
+          <img src={photoSquare} className='photo' alt="My photo"></img> 
+          <div>
+            <h1 className='name'>Lin Leyi</h1>
+            <h2 className='name-small'>Computer Science Student</h2>
+          </div>
+
+        </div>
+
         <div className='button-container'>
           <button className='button'>
             <img src={mail} alt="Icon" className='button-icon'></img>
