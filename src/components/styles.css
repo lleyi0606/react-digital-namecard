@@ -1,7 +1,7 @@
 .content_text {
-    font-size:15px;
-    font-style: oblique;
-    color: lightgray;
+    font-size: large;
+    font-family: 'Handjet', cursive;
+    color: black;
 }
 
 .content-title {
@@ -19,11 +19,71 @@
     flex-direction: row;
     align-items: center;
 }
+
+.infobox-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.infobox-container {
+    width: 90%;
+    text-align: left;
+    padding: 20px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    height: 150px;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.625); 
+}
+
+.info-button-container {
+    display: flex;
+    margin-top: 20px;
+    gap: 0px;
+}
+
+.info-button {
+    background-color: #c3c1c3; 
+    font-size: large;
+    font-family: 'Handjet', cursive;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: black;
+    border: none;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-right: 2px solid black;
+    border-radius: 0px; 
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.625); 
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.info-button:focus {
+    outline: none;
+    box-shadow: none;      
+}
+
+.info-button:active { 
+    border-bottom: #c3c1c3;
+    transform: translateY(2px);
+}
+
+.info-button.clicked { 
+    border-bottom: 2px solid #c3c1c3;
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
 .photo {
-    /* height: 50px;  
-    object-fit: scale-down;
-    display: block; */ 
-    max-width: 30%;
+    max-width: 18%;
     border: 2px solid white;
     margin-top: 20px;
     margin-left: 30px;
@@ -35,7 +95,7 @@
 .name {
     color: beige;
     font-family: 'Handjet', cursive;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-top:20px;
 }
 
@@ -43,23 +103,27 @@
     color: white;
     font-family: 'Handjet', cursive;
     font-weight: 300px;
-    font-size:medium;
+    margin-top: 0%;
+    font-size:large;
 }
 
 .button-container {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    margin-top: 20px;
-    gap: 0px;
+    margin-top: 10px;
+    gap: 8px;
+    padding-bottom: 10px;
+    padding-right: 2.5%;
 }
 
 .button {
     background-color: #c3c1c3; 
     font-family: 'Handjet', cursive;
-    /* border-color: rgba(51, 46, 52, 0.615);
-    width: 150px;
-    height: 50px; */
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
     color: black;
     border: none;
     border-left: 2px solid white;
@@ -68,6 +132,7 @@
     border-bottom: 2px solid black;
     border-radius: 0px; 
     cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.625);
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -78,17 +143,34 @@
   }
 
 .button:hover {
-    /* background-color: #45356a; /* Change background color on hover */
-    color: #fff; /* Change text color on hover */ 
-    transform: translateY(2px);
+    color: #fff; 
+    transform: translateY(1px);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 
-.footer-container {
-    
+.button:focus {
+    outline: none;
+    box-shadow: none;      
+}
+
+.banner-container {
     background-color:#0d0e77;
     border-color: white;
-    height: 80px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2px;
 }
+
+.banner-words {
+    margin: 0px;
+    padding-top: 2px;
+    color: #9ca1c1;
+    align-self: flex-start;
+    margin-left: 6px;
+    font-family: 'Handjet', cursive;
+}
+
+
+

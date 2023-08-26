@@ -11,11 +11,14 @@
 }
 
 .root-container {
-  max-width: 400px;
+  min-width: 400px;
+  max-width: 600px;
   /* margin: auto;
   padding: 0rem; */
   text-align: center;
   background-color: #c2bfc2;
+  border: 2px solid white; /* Add a border around the window */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
 }
 
 .app {
