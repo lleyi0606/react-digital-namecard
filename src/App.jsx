@@ -1,13 +1,9 @@
-import { useState } from 'react'
-
 import './App.css'
 import Header from './components/Header.jsx'
-import Content from './components/Content'
 import Banner from './components/Banner'
 import InfoBox from './components/InfoBox'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
@@ -17,9 +13,6 @@ function App() {
         <InfoBox/>
       </div>
     </div>
-
-    
-
   )
 }
 

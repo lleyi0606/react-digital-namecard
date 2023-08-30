@@ -46,8 +46,6 @@ export default function InfoBox() {
                     <p className="content_text">{displayText}</p>
                 </div>    
             </div>
-
-
         </div>
 
         <div className='button-container'>
@@ -61,6 +59,5 @@ export default function InfoBox() {
             </button>
         </div>
         </>
-
     )
 }
