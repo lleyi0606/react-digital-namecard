@@ -1,8 +1,14 @@
-# React + Vite
+# My Digital Namecard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A retro-windows-2007-themed digital namecard made with React. 
 
-Currently, two official plugins are available:
+View it [here](https://leyi-digital-namecard.netlify.app/)! 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![preview](/src/assets/screenshot.png "screenshot")
+
+This namecard is best viewed on PC as opposed to mobile devices due to limitations in the effects. 
+
+### Tech Stack 
+* ReactJS (JavaScript, HTML, CSS)
+
+Deployed on [Netlify](https://www.netlify.com/) and developed with [Vite](https://vitejs.dev/). 
